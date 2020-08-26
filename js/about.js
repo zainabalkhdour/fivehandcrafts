@@ -17,6 +17,35 @@ console.log ('this is the date today',date);
 alert ("are you zainab?");
 
 
+var fun1 = function(){
+
+    var x = 1;
+    var y = 2;
+    var z = x+y;
+
+    return z;
+}
+
+fun1();
+var output = fun1();
+console.log('the output',output)
+
+function fun2(){
+
+    var gender = prompt('what is your gender : ');
+
+    if(gender == 'female'){
+        document.write('<h2> your gender is : '+ gender + '</h2>')
+    } else {
+        alert('other gender :' , gender);
+    }
+
+    return gender;
+}
+
+fun2();
+var out = fun2();
+console.log('fun2', out);
 
 
 
