@@ -52,6 +52,7 @@
 
 
 var age2 = prompt ('how old are you?')
+confirm ("did you take premission?")
 
 while(age2< 10){
     console.log("yes");
